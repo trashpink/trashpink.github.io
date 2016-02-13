@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("font/LinLibertine_R.woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("font/LinLibertine_RB.woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("font/LinLibertine_RI.woff");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Linux Libertine";
+    src: url("font/LinLibertine_RBI.woff");
+    font-weight: bold;
+    font-style: italic;
+}
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	
+	font-size: 1em;
+	font-family: "Linux Libertine", Georgia, serif;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d36b70;
+	background-image: url("background.jpg");
+}
+
+body > div {
+	background-color: white;
+	
+	margin: 40px auto;
+	padding: 40px;
+	max-width: 33rem;
+	
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+	margin-top: 0;
+}
+
+p {
+	font-size: 1.4rem;
+}
+
+#mail {
+	color: #d36b80;
+	font-weight: bold;
+	margin-bottom: 0;
+}
